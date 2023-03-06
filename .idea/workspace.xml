@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12522f74-d375-4724-9066-0fda55821ba4" name="Changes" comment="feat: cria a classe conta">
-      <change afterPath="$PROJECT_DIR$/src/br/newtonpaiva/ui/Main.java" afterDir="false" />
+    <list default="true" id="12522f74-d375-4724-9066-0fda55821ba4" name="Changes" comment="feat: usa o equal para comparar as contas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/newtonpaiva/dominio/Conta.java" afterDir="false" />
     </list>
@@ -36,7 +35,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RunManager">
@@ -82,13 +84,37 @@
       <option name="project" value="LOCAL" />
       <updated>1677281161772</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: implementa o método depositar">
+      <created>1677292558817</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677292558817</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: implementa construtores, equals e hashcode">
+      <created>1677889251879</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677889251879</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: usa o equal para comparar as contas">
+      <created>1677889373200</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677889373200</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: cria estrutura inicial" />
     <MESSAGE value="feat: cria a classe conta" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: cria a classe conta" />
+    <MESSAGE value="feat: implementa o método depositar" />
+    <MESSAGE value="feat: implementa construtores, equals e hashcode" />
+    <MESSAGE value="feat: usa o equal para comparar as contas" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: usa o equal para comparar as contas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
