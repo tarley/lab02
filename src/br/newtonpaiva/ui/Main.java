@@ -1,6 +1,7 @@
 package br.newtonpaiva.ui;
 
 import br.newtonpaiva.dominio.Conta;
+import br.newtonpaiva.dominio.ContaEspecial;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,5 +25,11 @@ public class Main {
         }
 
         System.out.println(c.getSaldo());
+
+        ContaEspecial ce = new ContaEspecial();
+        ce.setNumero(20);
+        ce.setSaldo(100.0);
+        ce.setLimite(100.0);
+        ce.sacar(200.0);
     }
 }
