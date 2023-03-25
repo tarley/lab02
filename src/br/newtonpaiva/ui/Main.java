@@ -37,6 +37,11 @@ public class Main {
         for(Conta c : guilherme.getContas())
             c.depositar(100.0);
 
+        for(Conta c : guilherme.getContas()) {
+            if(c.getNumero().equals(11110009))
+                c.depositar(100.0);
+        }
+
         conta.getPessoa().getNome();
 
 
